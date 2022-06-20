@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+}
+/*
+ * Formatting the header area
+ */
+header {
+  background-color: #A3E4D7;
+  height: 50px;
+  width: 100%;
+  opacity: .9;
+  margin-bottom: 10px;
+}
+header h1.logo {
+  margin: 0;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  float: left;
+}
+header h1.logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+/*
+ * Centering the body content
+ */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #F9E79F;
+  border: 2px solid #AF7AC5;
+}
+
+.container_no_border {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #F9E79F;
+}
+
+div.home {
+  padding: 10px 0 30px 0;
+  background-color: #E6E6FA;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+div.about {
+  padding: 10px 0 30px 0;
+  background-color: #E6E6FA;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+h2 {
+  font-size: 3em;
+  margin-top: 40px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+h3 {
+  font-size: 1.7em;
+  font-weight: 100;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #999;
+}
+
+
+body {
+ background-color: #D4EFDF; 
+}
+
+.menu {
+  float: right;
+  margin-top: 8px;
+}
+.menu li {
+  display: inline;
+}
+.menu li + li {
+  margin-left: 35px;
+}
+.menu li a {
+  color: #444;
+  text-decoration: none;
+}
+
+table, th, td {
+  font-size: 1.25em;
+  border: 5px solid #AF7AC5;
+  border-collapse: collapse;
+}
+
+.multi-button {
+  filter: drop-shadow(3px 10px 15px rgba(0, 0, 0, 0.45));
+}
+.multi-button button{
+  height: 50px;
+  width: 100px;
+  background: linear-gradient(to bottom, #bada55, #da55bb);
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  margin: -5px; 
+  padding: 0;
+  stroke: black;
+  outline: none;
+}
+.multi-button :nth-child(1){
+  border-radius: 20px 0 0 20px;
+}
+.multi-button :nth-child(3){
+  border-radius: 0 20px 20px 0;
+}
+button:hover{
+  cursor: pointer;
+  filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.45));
+}
+button:active{
+  filter: none;
+  transform: scale(.95);
+}
